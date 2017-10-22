@@ -76,6 +76,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.aspx" />
+    <Content Include="Picture\arm.jpg" />
+    <Content Include="Picture\gundam.jpg" />
+    <Content Include="Picture\gunpla.jpeg" />
+    <Content Include="Picture\oo.jpg" />
+    <Content Include="Picture\SD.jpg" />
+    <Content Include="Picture\sdgundam.jpg" />
+    <Content Include="Picture\sd_oo.jpg" />
+    <Content Include="Picture\trygundam.jpg" />
+    <Content Include="Picture\uni.jpg" />
+    <Content Include="Picture\Xsia.jpg" />
+    <Content Include="Picture\xsiaoo.jpg" />
+    <Content Include="Video\รีวิวต่อกันพลาDestiny Gundam Momoko แบบstopmotion.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

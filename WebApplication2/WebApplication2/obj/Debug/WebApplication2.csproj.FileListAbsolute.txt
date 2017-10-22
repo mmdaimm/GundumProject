@@ -1,0 +1,9 @@
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.dll
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+D:\Project\Github\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

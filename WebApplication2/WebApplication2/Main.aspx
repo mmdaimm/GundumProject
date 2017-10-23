@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication2.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="WebApplication2.Main" %>
 
 <!DOCTYPE html>
 
@@ -11,8 +11,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Main_CSS.css"/>
     <meta name="viewpoint" content="width=divice-width"/>
+
 </head>
 <body>
+
+    <!----bar---->
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand">GUNDUM</a>
@@ -35,6 +38,7 @@
     </nav>
     </header>
 
+    <!-----picture----->
     <div class="container">
         <div class="row">
     <div id="carouselPicture" class="carousel slide col-8" data-ride="carousel" style="height:480px">
@@ -68,7 +72,7 @@
          </a>
 
         </div>
-
+                <!-----News---->
         <ul class="list-group col-3" role="group">
             <h2>News</h2>
             <a class="nav-link list-group-item" href="#">News</a>
@@ -77,18 +81,41 @@
         </ul>
 
         </div>
+        <div class="row" style="padding-top:1%;padding-left:0%">
 
-         <div class="btn-group-vertical">
+         <div class="btn-group-vertical col-sm-2" style="height:320px">
          <div class="btn-secondary col align-items-start" style="color:white;font-size:x-large;text-align:center">SD</div>
-             <span style="padding:3px"></span>
+             <span style="padding:12px"></span>
          <div class="btn-warning col align-items-start" style="color:white;font-size:x-large;text-align:center">HG</div>
-             <span style="padding:3px"></span>
+             <span style="padding:12px"></span>
          <div class="btn-success col align-items-start" style="color:white;font-size:x-large;text-align:center">RG</div>
-             <span style="padding:3px"></span>
+             <span style="padding:12px"></span>
          <div class="btn-info col align-items-start" style="color:white;font-size:x-large;text-align:center">MG</div>
-             <span style="padding:3px"></span>
+             <span style="padding:12px"></span>
          <div class="btn-primary col align-items-start" style="color:white;font-size:x-large;text-align:center">PG</div>
          </div>
+
+         <video class="col-6" style="padding-left:0%;margin-top:-25px" src="Video/รีวิวต่อกันพลาDestiny Gundam Momoko แบบstopmotion.mp4" controls="controls"></video>
+
+        <!---------------Log in--------------------->
+        <div class="col-3" style="text-align:center">
+            <h4 style="color:black">ระบบสมาชิก</h4>
+            <br />
+            <strong>
+            <a id="username">User</a>
+            </strong>
+            <script>
+                this.Username = document.getElementById('username');
+                Username.setAttribute('hidden', 'true');
+            </script>
+            <br />
+            <button id="btnLogin" type="submit" class="btn btn-danger" value="Login">Log-in with Google</button>
+            <br />
+            <button id="btnLogout" type="submit" class="btn btn-danger" value="Login">Log Out</button>
+        </div>
+
+          </div>
+
     </div>
 
     <form id="form1" runat="server">

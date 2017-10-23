@@ -1,12 +1,6 @@
 ﻿body {
 }
 
-.btn-group-vertical {
-    width: 20%;
-    height: 250px;
-    padding-top: 5px;
-}
-
 .list-group-item {
     background-color: lightgray;
     color:black;

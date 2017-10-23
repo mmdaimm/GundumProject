@@ -7,11 +7,13 @@
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Main_CSS.css"/>
+    <meta name="viewpoint" content="width=divice-width"/>
 </head>
 <body>
-
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand">GUNDUM</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +33,11 @@
         </span>
     </div>
     </nav>
+    </header>
 
     <div class="container">
         <div class="row">
-    <div id="carouselPicture" class="carousel slide col-6" data-ride="carousel" style="height:480px">
+    <div id="carouselPicture" class="carousel slide col-8" data-ride="carousel" style="height:480px">
         <ol class="carousel-indicators">
             <li data-target="#carouselPicture" data-slide-to="0" class="active"></li>
             <li data-target="#carouselPicture" data-slide-to="1"></li>
@@ -63,18 +66,19 @@
              <span class="carousel-control-next-icon" aria-hidden="true"></span>
              <span class="sr-only">Next</span>
          </a>
-        <div class="col">
-        <div class="btn-group-vertical" role="group">
-            <h2 style="text-align:center">News</h2>
-            <button type="submit" class="btn">News</button>
-        </div>
-        </div>
-        </div>
-            </div>
+
         </div>
 
-    <div class="container">
-         <div class="btn-group-vertical" style="width:20%;height:250px;padding-top:5px">
+        <ul class="list-group col-3" role="group">
+            <h2>News</h2>
+            <a class="nav-link list-group-item" href="#">News</a>
+            <a class="nav-link list-group-item" href="#">News</a>
+            <a class="nav-link list-group-item" href="#">News</a>
+        </ul>
+
+        </div>
+
+         <div class="btn-group-vertical">
          <div class="btn-secondary col align-items-start" style="color:white;font-size:x-large;text-align:center">SD</div>
              <span style="padding:3px"></span>
          <div class="btn-warning col align-items-start" style="color:white;font-size:x-large;text-align:center">HG</div>

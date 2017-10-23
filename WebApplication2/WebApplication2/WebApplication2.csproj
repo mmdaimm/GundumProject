@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.aspx" />
+    <Content Include="Main_CSS.css" />
     <Content Include="Picture\arm.jpg" />
     <Content Include="Picture\gundam.jpg" />
     <Content Include="Picture\gunpla.jpeg" />

@@ -102,16 +102,31 @@
             <h4 style="color:black">ระบบสมาชิก</h4>
             <br />
             <strong>
-            <a id="username">User</a>
+            <a style="color:black" id="username">User</a>
             </strong>
-            <script>
-                this.Username = document.getElementById('username');
-                Username.setAttribute('hidden', 'true');
-            </script>
             <br />
             <button id="btnLogin" type="submit" class="btn btn-danger" value="Login">Log-in with Google</button>
-            <br />
             <button id="btnLogout" type="submit" class="btn btn-danger" value="Login">Log Out</button>
+
+            <script>
+                this.Username = document.getElementById("username");
+                this.buttonLogin = document.getElementById("btnLogin");
+                this.buttonLogout = document.getElementById("btnLogout");
+                buttonLogout.setAttribute("hidden", "true");
+                Username.setAttribute("hidden", "true");
+                buttonLogin.addEventListener("click", onClickLogin);
+                buttonLogout.addEventListener("click", onClickLogout);
+                function onClickLogin() {
+                    buttonLogout.removeAttribute("hidden", "true");
+                    buttonLogin.setAttribute("hidden", "true");
+                    Username.removeAttribute("hidden", "true");
+                }
+                function onClickLogout() {
+                    buttonLogout.setAttribute("hidden", "true");
+                    buttonLogin.removeAttribute("hidden", "true");
+                    Username.setAttribute("hidden", "true");
+                }
+            </script>
         </div>
 
           </div>

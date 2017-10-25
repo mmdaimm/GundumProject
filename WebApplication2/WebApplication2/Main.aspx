@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <!----bar---->
+    <!----------------------nav bar----------------------------------->
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand">GUNDUM</a>
@@ -29,7 +29,7 @@
             <a class="nav-link" href="#" style="color:black">Products</a>
         </span>
         <span class="nav-item">
-            <a class="nav-link" href="#" style="color:black">How To Pay</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target=".dialogmodal" style="color:black">How To Pay</a>
         </span>
         <span class="nav-item">
             <a class="nav-link" href="#" style="color:black">Community</a>
@@ -38,7 +38,7 @@
     </nav>
     </header>
 
-    <!-----picture----->
+    <!-----------------------picture---------------------->
     <div class="container">
         <div class="row">
     <div id="carouselPicture" class="carousel slide col-8" data-ride="carousel" style="height:480px">
@@ -72,7 +72,7 @@
          </a>
 
         </div>
-                <!-----News---->
+       <!---------------------News-------------------------->
         <ul class="list-group col-3" role="group">
             <h2>News</h2>
             <a class="nav-link list-group-item" href="#">News</a>
@@ -128,6 +128,30 @@
                 }
             </script>
         </div>
+
+           <!------------How To Pay(Pop up)---------------->
+            <div class="modal fade dialogmodal">
+            <div id="dialog" class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title"><strong>How To Pay</strong></div>
+                        <div>
+                        <button data-dismiss="modal" class="close" style="align-content:flex-end"><span>&times;</span></button>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-body">
+                    
+                    </div>
+
+                    <div class="modal-footer">
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!---------------------------------------------------->
 
           </div>
 

@@ -110,17 +110,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin_Product.aspx" />
+    <Content Include="All_products.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Main_CSS.css" />
     <Content Include="Picture\arm.jpg" />
+    <Content Include="Picture\Grade\dd\1.png" />
+    <Content Include="Picture\Grade\dd\10.jpg" />
+    <Content Include="Picture\Grade\dd\11.jpg" />
+    <Content Include="Picture\Grade\dd\12.jpg" />
+    <Content Include="Picture\Grade\dd\13.jpg" />
+    <Content Include="Picture\Grade\dd\14.png" />
+    <Content Include="Picture\Grade\dd\15.jpg" />
+    <Content Include="Picture\Grade\dd\16.jpg" />
+    <Content Include="Picture\Grade\dd\17.jpg" />
+    <Content Include="Picture\Grade\dd\18.png" />
+    <Content Include="Picture\Grade\dd\2.jpg" />
+    <Content Include="Picture\Grade\dd\3.jpg" />
+    <Content Include="Picture\Grade\dd\4.png" />
+    <Content Include="Picture\Grade\dd\5.jpg" />
+    <Content Include="Picture\Grade\dd\6.jpg" />
+    <Content Include="Picture\Grade\dd\7.jpg" />
+    <Content Include="Picture\Grade\dd\8.jpg" />
+    <Content Include="Picture\Grade\dd\9.jpg" />
+    <Content Include="Picture\Grade\w.jpg" />
     <Content Include="Picture\gundam.jpg" />
     <Content Include="Picture\gunpla.jpeg" />
+    <Content Include="Picture\Hexagon-2.jpg" />
     <Content Include="Picture\oo.jpg" />
     <Content Include="Picture\SD.jpg" />
     <Content Include="Picture\sdgundam.jpg" />
     <Content Include="Picture\sd_oo.jpg" />
+    <Content Include="Picture\test.jpg" />
     <Content Include="Picture\trygundam.jpg" />
     <Content Include="Picture\uni.jpg" />
+    <Content Include="Picture\vs.jpg" />
     <Content Include="Picture\Xsia.jpg" />
     <Content Include="Picture\xsiaoo.jpg" />
     <Content Include="Video\รีวิวต่อกันพลาDestiny Gundam Momoko แบบstopmotion.mp4" />
@@ -133,6 +156,13 @@
     </Compile>
     <Compile Include="Admin_Product.aspx.designer.cs">
       <DependentUpon>Admin_Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="All_products.aspx.cs">
+      <DependentUpon>All_products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="All_products.aspx.designer.cs">
+      <DependentUpon>All_products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Con_Database.cs" />
     <Compile Include="Main.aspx.cs">

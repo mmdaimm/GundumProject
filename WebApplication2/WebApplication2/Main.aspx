@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -13,31 +14,62 @@
     <meta name="viewpoint" content="width=divice-width"/>
 
 </head>
+
+    <style>
+    body {
+        background-image: url("/Picture/Hexagon-2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .ddd {
+        width: 600px;
+    }
+
+    .card-columns {
+        column-count: 4;
+    }
+</style>
+
 <body>
 
     <!----------------------nav bar----------------------------------->
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light navbar bg-light navbar fixed-top ">
         <a class="navbar-brand">GUNDUM</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto"> 
-        </ul>
-        <span class="nav-item active">
-            <a class="nav-link" href="#" style="color:black">Products</a>
-        </span>
-        <span class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target=".dialogmodal" style="color:black">How To Pay</a>
-        </span>
-        <span class="nav-item">
-            <a class="nav-link" href="#" style="color:black">Community</a>
-        </span>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Grade
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">ALL</a>
+                        <a class="dropdown-item" href="#">HG</a>
+                        <a class="dropdown-item" href="#">MG</a>
+                        <a class="dropdown-item" href="#">PG</a>
+                    </div>
+                </li>
+            </ul>
+            <span class="nav-item active">
+                <a class="nav-link" href="#" style="color: black">Products</a>
+            </span>
+            <span class="nav-item">
+                <a class="nav-link" href="#" style="color: black">How To Pay</a>
+            </span>
+            <span class="nav-item">
+                <a class="nav-link" href="#" style="color: black">Community</a>
+            </span>
+            <span class="nav-item">
+                <a class="nav-link" href="#" style="color: black"><i class="fa fa-cart-arrow-down"></i></a>
+            </span>
+            <span class="nav-item">
+                <a class="nav-link" href="#" style="color: black"><i class="material-icons">Login</i></a>
+            </span>
+        </div>
     </nav>
-    </header>
-
     <!-----------------------picture---------------------->
 
     <form id="form1" runat="server">

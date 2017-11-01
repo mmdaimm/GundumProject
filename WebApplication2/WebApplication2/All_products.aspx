@@ -43,7 +43,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Grade
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">ALL</a>
+                        <a class="dropdown-item" href="All_products.aspx">ALL</a>
                         <a class="dropdown-item" href="#">HG</a>
                         <a class="dropdown-item" href="#">MG</a>
                         <a class="dropdown-item" href="#">PG</a>
@@ -51,7 +51,7 @@
                 </li>
             </ul>
             <span class="nav-item active">
-                <a class="nav-link" href="#" style="color: black">Products</a>
+                <a class="nav-link" href="All_products.aspx" style="color: black">Products</a>
             </span>
             <span class="nav-item">
                 <a class="nav-link" href="#" style="color: black">How To Pay</a>
@@ -83,7 +83,7 @@
                 <div class="card-body">
                     <h5 class="card-title">PG 1/60 RX-0 Unicorn Gundam (Shadow Beast) - GBWC 2015 Korea Entry Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -91,7 +91,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MG 1/100 Knight Gundam - Custom Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -99,7 +99,7 @@
                 <div class="card-body">
                     <h5 class="card-title">HGBF 1/144 Gundam Tryon 3 [Anime Colors] - Painted Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -107,7 +107,7 @@
                 <div class="card-body">
                     <h5 class="card-title">1/48 Mega Size Char's Zaku II [Anime Colors] - Painted Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -115,7 +115,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MG 1/100 Sazabi Ver. Ka - Custom Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -123,7 +123,7 @@
                 <div class="card-body">
                     <h4 class="card-title">SD Gundam Barbatos Form 6 Warrior - Custom Build</h4>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -131,7 +131,7 @@
                 <div class="card-body">
                     <h5 class="card-title">PG 1/60 MBF-P02 Gundam Astray [Red Frame] Louis Vuitton Custom - Customized Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -139,7 +139,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MG 1/100 Freedom Gundam 2.0 - Customized Build WIP</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detailw</a>
                 </div>
             </div>
             <div class="card">
@@ -147,7 +147,7 @@
                 <div class="card-body">
                     <h5 class="card-title">PG 1/60 Strike Gundam - Painted Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -155,7 +155,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Gundam Kimaris - Custom Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -163,7 +163,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MG 1/100 Nu Gundam Ver Ka + P-Bandai HWS Part Set - Painted Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
             <div class="card">
@@ -171,7 +171,7 @@
                 <div class="card-body">
                     <h5 class="card-title">1/100 Gundam Barbatos Form 6 - Customized Build</h5>
                     <p class="card-text">Description.</p>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="#" class="btn btn-primary">Detail</a>
                 </div>
             </div>
         </div>

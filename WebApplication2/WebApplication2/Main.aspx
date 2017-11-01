@@ -46,7 +46,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Grade
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">ALL</a>
+                        <a class="dropdown-item" href="All_products.aspx">ALL</a>
                         <a class="dropdown-item" href="#">HG</a>
                         <a class="dropdown-item" href="#">MG</a>
                         <a class="dropdown-item" href="#">PG</a>
@@ -54,7 +54,7 @@
                 </li>
             </ul>
             <span class="nav-item active">
-                <a class="nav-link" href="#" style="color: black">Products</a>
+                <a class="nav-link" href="All_products.aspx" style="color: black">Products</a>
             </span>
             <span class="nav-item">
                 <a class="nav-link" href="#" style="color: black">How To Pay</a>

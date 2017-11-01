@@ -39,6 +39,8 @@
     </header>
 
     <!-----------------------picture---------------------->
+
+    <form id="form1" runat="server">
     <div class="container">
         <div class="row">
     <div id="carouselPicture" class="carousel slide col-8" data-ride="carousel" style="height:480px">
@@ -102,31 +104,16 @@
             <h4 style="color:black">ระบบสมาชิก</h4>
             <br />
             <strong>
-            <a style="color:black" id="username">User</a>
+            <label runat="server" style="color:black" id="username">User</label>
             </strong>
             <br />
-            <button id="btnLogin" type="submit" class="btn btn-danger" value="Login">Log-in with Google</button>
-            <button id="btnLogout" type="submit" class="btn btn-danger" value="Login">Log Out</button>
+            <div class="btn-group-vertical" style="text-align:center">
+                <asp:Button ID="btnLogin" runat="server" BorderStyle="None" BackColor="Orange" Font-Size="Larger" Text="Login" OnClick="btnLogin_Click" Width="120%" />
+                <asp:Button ID="btnEdit" runat="server" BorderStyle="None" BackColor="LightBlue" Font-Size="Larger" Text="Edit" Width="120%" />
+                <asp:Button ID="btnLogout" runat="server" BorderStyle="None" BackColor="LightBlue" Font-Size="Larger" Text="Logout" OnClick="btnLogout_Click" Width="120%" />
+            </div>
 
-            <script>
-                this.Username = document.getElementById("username");
-                this.buttonLogin = document.getElementById("btnLogin");
-                this.buttonLogout = document.getElementById("btnLogout");
-                buttonLogout.setAttribute("hidden", "true");
-                Username.setAttribute("hidden", "true");
-                buttonLogin.addEventListener("click", onClickLogin);
-                buttonLogout.addEventListener("click", onClickLogout);
-                function onClickLogin() {
-                    buttonLogout.removeAttribute("hidden", "true");
-                    buttonLogin.setAttribute("hidden", "true");
-                    Username.removeAttribute("hidden", "true");
-                }
-                function onClickLogout() {
-                    buttonLogout.setAttribute("hidden", "true");
-                    buttonLogin.removeAttribute("hidden", "true");
-                    Username.setAttribute("hidden", "true");
-                }
-            </script>
+            
         </div>
 
            <!------------How To Pay(Pop up)---------------->
@@ -157,7 +144,6 @@
 
     </div>
 
-    <form id="form1" runat="server">
         <div>
         </div>
     </form>

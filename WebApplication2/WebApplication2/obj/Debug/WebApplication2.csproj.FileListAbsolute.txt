@@ -25,3 +25,25 @@ D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.E
 D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\MySql.Data.Entity.EF6.xml
 D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.EntityFrameworkCore.xml
 D:\Project\Github\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Net.Http.Formatting.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.WebHost.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySql.Data.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySql.Web.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Net.Http.Formatting.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.WebHost.xml
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

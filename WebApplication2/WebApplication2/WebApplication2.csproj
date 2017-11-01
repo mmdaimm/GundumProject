@@ -66,7 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,23 +77,67 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Grade.aspx" />
+    <Content Include="HtmlPage1.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Main_CSS.css" />
     <Content Include="Picture\arm.jpg" />
+    <Content Include="Picture\gr.png" />
+    <Content Include="Picture\Grade\1007.png" />
+    <Content Include="Picture\Grade\dd\1.png" />
+    <Content Include="Picture\Grade\dd\10.jpg" />
+    <Content Include="Picture\Grade\dd\11.jpg" />
+    <Content Include="Picture\Grade\dd\12.jpg" />
+    <Content Include="Picture\Grade\dd\13.jpg" />
+    <Content Include="Picture\Grade\dd\14.png" />
+    <Content Include="Picture\Grade\dd\15.jpg" />
+    <Content Include="Picture\Grade\dd\16.jpg" />
+    <Content Include="Picture\Grade\dd\17.jpg" />
+    <Content Include="Picture\Grade\dd\18.png" />
+    <Content Include="Picture\Grade\dd\2.jpg" />
+    <Content Include="Picture\Grade\dd\3.jpg" />
+    <Content Include="Picture\Grade\dd\4.png" />
+    <Content Include="Picture\Grade\dd\5.jpg" />
+    <Content Include="Picture\Grade\dd\6.jpg" />
+    <Content Include="Picture\Grade\dd\7.jpg" />
+    <Content Include="Picture\Grade\dd\8.jpg" />
+    <Content Include="Picture\Grade\dd\9.jpg" />
+    <Content Include="Picture\Grade\hg.jpg" />
+    <Content Include="Picture\Grade\pg.jpg" />
+    <Content Include="Picture\Grade\re.jpg" />
+    <Content Include="Picture\Grade\rg.jpg" />
+    <Content Include="Picture\Grade\w.jpg" />
+    <Content Include="Picture\Graph.png" />
+    <Content Include="Picture\grid-l.png" />
     <Content Include="Picture\gundam.jpg" />
     <Content Include="Picture\gunpla.jpeg" />
+    <Content Include="Picture\Hexagon-2.jpg" />
+    <Content Include="Picture\Hexagon.jpg" />
+    <Content Include="Picture\j.jpg" />
     <Content Include="Picture\oo.jpg" />
+    <Content Include="Picture\pi.jpg" />
     <Content Include="Picture\SD.jpg" />
     <Content Include="Picture\sdgundam.jpg" />
     <Content Include="Picture\sd_oo.jpg" />
+    <Content Include="Picture\test.jpg" />
     <Content Include="Picture\trygundam.jpg" />
     <Content Include="Picture\uni.jpg" />
+    <Content Include="Picture\vs.jpg" />
     <Content Include="Picture\Xsia.jpg" />
     <Content Include="Picture\xsiaoo.jpg" />
+    <Content Include="scripts\GG.css" />
     <Content Include="Video\รีวิวต่อกันพลาDestiny Gundam Momoko แบบstopmotion.mp4" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Grade.aspx.cs">
+      <DependentUpon>Grade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grade.aspx.designer.cs">
+      <DependentUpon>Grade.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -100,9 +146,16 @@
       <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts\" />
+    <Folder Include="Picture\Grade\test\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

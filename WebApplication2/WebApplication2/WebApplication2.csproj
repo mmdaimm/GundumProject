@@ -113,6 +113,7 @@
     <Content Include="All_products.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Main_CSS.css" />
+    <Content Include="Modify.aspx" />
     <Content Include="Picture\arm.jpg" />
     <Content Include="Picture\Grade\dd\1.png" />
     <Content Include="Picture\Grade\dd\10.jpg" />
@@ -136,6 +137,18 @@
     <Content Include="Picture\gundam.jpg" />
     <Content Include="Picture\gunpla.jpeg" />
     <Content Include="Picture\Hexagon-2.jpg" />
+    <Content Include="Picture\HG Prototype Gouf\Gouf01.jpg" />
+    <Content Include="Picture\HG Prototype Gouf\Gouf02.jpg" />
+    <Content Include="Picture\HG Prototype Gouf\Gouf03.jpg" />
+    <Content Include="Picture\HG Prototype Gouf\Gouf04.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\0a.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-1.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-2.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-3.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-4.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-5.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-6.jpg" />
+    <Content Include="Picture\HGBF 1144 Wing Gundam Zero Honoo\Gundam-Wing-Zero-Honoo-Vxstair-7.jpg" />
     <Content Include="Picture\oo.jpg" />
     <Content Include="Picture\SD.jpg" />
     <Content Include="Picture\sdgundam.jpg" />
@@ -146,6 +159,7 @@
     <Content Include="Picture\vs.jpg" />
     <Content Include="Picture\Xsia.jpg" />
     <Content Include="Picture\xsiaoo.jpg" />
+    <Content Include="Product.aspx" />
     <Content Include="Video\รีวิวต่อกันพลาDestiny Gundam Momoko แบบstopmotion.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -171,6 +185,20 @@
     </Compile>
     <Compile Include="Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

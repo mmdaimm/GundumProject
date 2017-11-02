@@ -47,3 +47,25 @@ C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebA
 C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
 C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\Preecha Jaruekklang\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Net.Http.Formatting.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.WebHost.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySql.Data.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySql.Data.Entity.EF6.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\MySql.Web.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Net.Http.Formatting.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\bin\System.Web.Http.WebHost.xml
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\TLe\Documents\GitHub\GundumProject\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
